@@ -5,11 +5,12 @@
 #include "Evolventa.h"
 
 // конструктор
-Evolventa::Evolventa(double valueAlph, double valueRb) {
-    setParam(valueAlph, valueRb);
+Evolventa::Evolventa(double valuePhi, double valueRb) {
+    phi = valuePhi;
+    rb = valueRb;
 }
 
-void Evolventa::setParam(double valueAlph, double valueRb) {
-    phi = valueAlph;
+void Evolventa::setParam(double valuePhi, double valueRb) {
+    phi = valuePhi;
     rb = valueRb;
 }
