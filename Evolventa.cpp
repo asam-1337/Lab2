@@ -10,6 +10,6 @@ Evolventa::Evolventa(double valueAlph, double valueRb) {
 }
 
 void Evolventa::setParam(double valueAlph, double valueRb) {
-    alph = valueAlph;
+    phi = valueAlph;
     rb = valueRb;
 }
