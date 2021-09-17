@@ -23,7 +23,8 @@ int main() {
         << "2. Distance to center\n"
         << "3. Get coordinates\n"
         << "4. Get arc length\n"
-        << "5. Get radius of curvature"
+        << "5. Get radius of curvature\n"
+        << "6. Get equations in polar system"
         << std::endl;
 
         if (!get_num(res))
@@ -33,23 +34,30 @@ int main() {
             case 0:
                 return 0;
             case 1:
+                std::cout << "Enter angle" << std::endl;
                 if (!get_num(alph))
                     return 1;
+                std::cout << "Enter radius" << std::endl;
                 if (!get_num(rb))
                     return 1;
                 line.setParam(alph, rb);
+                std::cout << "Coordinates set" << std::endl;
                 break;
             case 2:
-                std::cout << line.getP() << std::endl;
+                std::cout << "Distance to center P = " << line.getP() << std::endl;
                 break;
             case 3:
-                std::cout << "X: " << line.getX() << "\nY: " << line.getY() << std::endl;
+                std::cout<< "Coordinates:\n" << "X: " << line.getX() << "\nY: " << line.getY() << std::endl;
                 break;
             case 4:
-                std::cout << line.getS() << std::endl;
+                std::cout << "Arc length S = " << line.getS() << std::endl;
                 break;
             case 5:
-                std::cout << line.getK() << std::endl;
+                std::cout << "Radius of curvature k = " << line.getK() << std::endl;
+                break;
+            case 6:
+                std::cout << line.getQeq() << std::endl;
+                std::cout << line.getPeq() << std::endl;
                 break;
             default:
                 std::cout << "No such option" << std::endl;
