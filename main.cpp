@@ -7,11 +7,11 @@ int main() {
     double rb;
 
     std::cout << "Enter angle" << std::endl;
-    if (!get_num(alph))
+    if (get_num(alph))
         return 1;
 
     std::cout << "Enter radius" << std::endl;
-    if (!get_num(rb))
+    if (get_num(rb))
         return  1;
 
     Evolventa line(alph, rb);
@@ -27,7 +27,7 @@ int main() {
         << "6. Get equations in polar system"
         << std::endl;
 
-        if (!get_num(res))
+        if (get_num(res))
             return 1;
 
         switch (res) {
@@ -35,10 +35,10 @@ int main() {
                 return 0;
             case 1:
                 std::cout << "Enter angle" << std::endl;
-                if (!get_num(alph))
+                if (get_num(alph))
                     return 1;
                 std::cout << "Enter radius" << std::endl;
-                if (!get_num(rb))
+                if (get_num(rb))
                     return 1;
                 line.setParam(alph, rb);
                 std::cout << "Coordinates set" << std::endl;

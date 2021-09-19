@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/chicha-man/Downloads/clion-2021.2.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/164/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/chicha-man/Downloads/clion-2021.2.1/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chicha-man/CLionProjects/Lab2
+CMAKE_SOURCE_DIR = /home/sam/CLionProjects/Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chicha-man/CLionProjects/Lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sam/CLionProjects/Lab2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab2.dir/depend.make
@@ -68,29 +68,29 @@ include CMakeFiles/Lab2.dir/flags.make
 
 CMakeFiles/Lab2.dir/main.cpp.o: CMakeFiles/Lab2.dir/flags.make
 CMakeFiles/Lab2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chicha-man/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab2.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/main.cpp.o -c /home/chicha-man/CLionProjects/Lab2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab2.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/main.cpp.o -c /home/sam/CLionProjects/Lab2/main.cpp
 
 CMakeFiles/Lab2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chicha-man/CLionProjects/Lab2/main.cpp > CMakeFiles/Lab2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/CLionProjects/Lab2/main.cpp > CMakeFiles/Lab2.dir/main.cpp.i
 
 CMakeFiles/Lab2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chicha-man/CLionProjects/Lab2/main.cpp -o CMakeFiles/Lab2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/CLionProjects/Lab2/main.cpp -o CMakeFiles/Lab2.dir/main.cpp.s
 
 CMakeFiles/Lab2.dir/Evolventa.cpp.o: CMakeFiles/Lab2.dir/flags.make
 CMakeFiles/Lab2.dir/Evolventa.cpp.o: ../Evolventa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chicha-man/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.dir/Evolventa.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/Evolventa.cpp.o -c /home/chicha-man/CLionProjects/Lab2/Evolventa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.dir/Evolventa.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/Evolventa.cpp.o -c /home/sam/CLionProjects/Lab2/Evolventa.cpp
 
 CMakeFiles/Lab2.dir/Evolventa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/Evolventa.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chicha-man/CLionProjects/Lab2/Evolventa.cpp > CMakeFiles/Lab2.dir/Evolventa.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/CLionProjects/Lab2/Evolventa.cpp > CMakeFiles/Lab2.dir/Evolventa.cpp.i
 
 CMakeFiles/Lab2.dir/Evolventa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/Evolventa.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chicha-man/CLionProjects/Lab2/Evolventa.cpp -o CMakeFiles/Lab2.dir/Evolventa.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/CLionProjects/Lab2/Evolventa.cpp -o CMakeFiles/Lab2.dir/Evolventa.cpp.s
 
 # Object files for target Lab2
 Lab2_OBJECTS = \
@@ -104,7 +104,7 @@ Lab2: CMakeFiles/Lab2.dir/main.cpp.o
 Lab2: CMakeFiles/Lab2.dir/Evolventa.cpp.o
 Lab2: CMakeFiles/Lab2.dir/build.make
 Lab2: CMakeFiles/Lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chicha-man/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/CLionProjects/Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +116,6 @@ CMakeFiles/Lab2.dir/clean:
 .PHONY : CMakeFiles/Lab2.dir/clean
 
 CMakeFiles/Lab2.dir/depend:
-	cd /home/chicha-man/CLionProjects/Lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chicha-man/CLionProjects/Lab2 /home/chicha-man/CLionProjects/Lab2 /home/chicha-man/CLionProjects/Lab2/cmake-build-debug /home/chicha-man/CLionProjects/Lab2/cmake-build-debug /home/chicha-man/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/CLionProjects/Lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/CLionProjects/Lab2 /home/sam/CLionProjects/Lab2 /home/sam/CLionProjects/Lab2/cmake-build-debug /home/sam/CLionProjects/Lab2/cmake-build-debug /home/sam/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Lab2.dir/depend
 

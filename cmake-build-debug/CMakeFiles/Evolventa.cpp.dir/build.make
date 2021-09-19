@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/chicha-man/Downloads/clion-2021.2.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/164/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/chicha-man/Downloads/clion-2021.2.1/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chicha-man/CLionProjects/Lab2
+CMAKE_SOURCE_DIR = /home/sam/CLionProjects/Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chicha-man/CLionProjects/Lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sam/CLionProjects/Lab2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Evolventa.cpp.dir/depend.make
@@ -71,6 +71,6 @@ CMakeFiles/Evolventa.cpp.dir/clean:
 .PHONY : CMakeFiles/Evolventa.cpp.dir/clean
 
 CMakeFiles/Evolventa.cpp.dir/depend:
-	cd /home/chicha-man/CLionProjects/Lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chicha-man/CLionProjects/Lab2 /home/chicha-man/CLionProjects/Lab2 /home/chicha-man/CLionProjects/Lab2/cmake-build-debug /home/chicha-man/CLionProjects/Lab2/cmake-build-debug /home/chicha-man/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Evolventa.cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/CLionProjects/Lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/CLionProjects/Lab2 /home/sam/CLionProjects/Lab2 /home/sam/CLionProjects/Lab2/cmake-build-debug /home/sam/CLionProjects/Lab2/cmake-build-debug /home/sam/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Evolventa.cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Evolventa.cpp.dir/depend
 

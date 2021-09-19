@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chicha-man/CLionProjects/Lab2/Evolventa.cpp" "/home/chicha-man/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/Evolventa.cpp.o"
-  "/home/chicha-man/CLionProjects/Lab2/main.cpp" "/home/chicha-man/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/main.cpp.o"
+  "/home/sam/CLionProjects/Lab2/Evolventa.cpp" "/home/sam/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/Evolventa.cpp.o"
+  "/home/sam/CLionProjects/Lab2/main.cpp" "/home/sam/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

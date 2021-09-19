@@ -9,11 +9,21 @@
 #include <cmath>
 
 template <class T>
-int get_num(T &a) {
+static int get_num(T& a) {
     std::cin >> a;
-    if (!std::cin.good())
-        return 0;
-    return 1;
+
+    while (!std::cin.good()) {
+        if (std::cin.bad()) throw std::runtime_error("Fatal error");
+        if (std::cin.eof()) return 1;
+
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+        std::cout << "Invalid input. Please, try again from incorrect value" << std::endl;
+        std::cin >> a;
+    }
+
+    return 0;
 }
 
 class Evolventa {

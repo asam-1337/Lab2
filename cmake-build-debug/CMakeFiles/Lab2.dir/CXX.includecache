@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/chicha-man/CLionProjects/Lab2/Evolventa.cpp
+/home/sam/CLionProjects/Lab2/Evolventa.cpp
 Evolventa.h
-/home/chicha-man/CLionProjects/Lab2/Evolventa.h
+/home/sam/CLionProjects/Lab2/Evolventa.h
 
-/home/chicha-man/CLionProjects/Lab2/Evolventa.h
+/home/sam/CLionProjects/Lab2/Evolventa.h
 iostream
 -
 cmath
 -
 
-/home/chicha-man/CLionProjects/Lab2/main.cpp
+/home/sam/CLionProjects/Lab2/main.cpp
 iostream
 -
 Evolventa.h
-/home/chicha-man/CLionProjects/Lab2/Evolventa.h
+/home/sam/CLionProjects/Lab2/Evolventa.h
 

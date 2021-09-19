@@ -1,4 +1,4 @@
-/home/chicha-man/Downloads/clion-2021.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/chicha-man/CLionProjects/Lab2
+/snap/clion/164/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/sam/CLionProjects/Lab2
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Detecting C compiler ABI info
@@ -16,3 +16,4 @@ CMake Error: Cannot determine link language for target "Evolventa.cpp".
 CMake Error: CMake can not determine linker language for target: Evolventa.cpp
 -- Generating done
 CMake Generate step failed.  Build files cannot be regenerated correctly.
+Unable to determine product file path for target Evolventa.cpp. Running and debugging will be unavailable.
