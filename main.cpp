@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "Evolventa.h"
 
 int main() {
@@ -44,20 +45,20 @@ int main() {
                 std::cout << "Coordinates set" << std::endl;
                 break;
             case 2:
-                std::cout << "Distance to center P = " << line.getP() << std::endl;
+                std::cout << "Distance to center P = " << line.returnP() << std::endl;
                 break;
             case 3:
-                std::cout<< "Coordinates:\n" << "X: " << line.getX() << "\nY: " << line.getY() << std::endl;
+                std::cout << "Coordinates:\n" << "X: " << line.returnX() << "\nY: " << line.returnY() << std::endl;
                 break;
             case 4:
-                std::cout << "Arc length S = " << line.getS() << std::endl;
+                std::cout << "Arc length S = " << line.returnS() << std::endl;
                 break;
             case 5:
-                std::cout << "Radius of curvature k = " << line.getK() << std::endl;
+                std::cout << "Radius of curvature k = " << line.returnK() << std::endl;
                 break;
             case 6:
-                std::cout << line.getQeq() << std::endl;
-                std::cout << line.getPeq() << std::endl;
+                line.returnQeq();
+                line.returnPeq();
                 break;
             default:
                 std::cout << "No such option" << std::endl;
