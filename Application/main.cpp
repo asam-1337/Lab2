@@ -1,21 +1,21 @@
 #include <iostream>
 
-#include "Evolventa.h"
+#include "../Library/Evolventa.h"
 
 int main() {
     int res;
-    double alph;
+    double phi;
     double rb;
 
     std::cout << "Enter angle" << std::endl;
-    if (get_num(alph))
+    if (get_num(phi))
         return 1;
 
     std::cout << "Enter radius" << std::endl;
     if (get_num(rb))
         return  1;
 
-    Evolventa line(alph, rb);
+    Evolventa line(phi, rb);
 
     while (true) {
         std::cout
@@ -36,12 +36,13 @@ int main() {
                 return 0;
             case 1:
                 std::cout << "Enter angle" << std::endl;
-                if (get_num(alph))
+                if (get_num(phi))
                     return 1;
                 std::cout << "Enter radius" << std::endl;
                 if (get_num(rb))
                     return 1;
-                line.setParam(alph, rb);
+                line.setPhi(phi);
+                line.setRb(rb);
                 std::cout << "Coordinates set" << std::endl;
                 break;
             case 2:

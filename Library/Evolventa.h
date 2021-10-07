@@ -27,11 +27,16 @@ private:
     double phi; // угол поворота от начала
     double rb; // начальный радиус окружности
 public:
-    //construct
-    Evolventa(double valueAlph, double valueRb);
+    //constructor
+    Evolventa();
+    Evolventa(double valuePhi, double valueRb);
 
-    //setter
-    void setParam(double valueAlph, double valueRb);
+    //setters
+    void setPhi(double valuePhi);
+    void setRb(double valueRb);
+    //getters
+    double getPhi() const;
+    double getRb() const;
 
     //tasks
     double returnP() const;
